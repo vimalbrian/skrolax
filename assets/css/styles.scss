@@ -1,0 +1,45 @@
+$white:#ffffff;
+
+html, body{
+	padding:0;
+	margin:0;
+}
+
+.parallax{
+	position:relative;
+	background-attachment: fixed !important;
+	background-size: 100% auto !important;
+    background-position: center;
+}
+
+#scene1{
+	background:url(../images/image1.jpg) no-repeat;
+	height:1000px;
+}
+
+#scene2, #scene4, #scene6{
+	background-color:$white;
+	padding:20px 20px 20px 20px;
+	
+	h2{
+		font-family:"AvenirNextUltraLight", Arial, Helvetica;
+		font-size:70px;
+		text-align:center;
+		font-weight:100;
+	}
+}
+
+#scene3{
+	background:url("../images/image2.jpg") no-repeat;
+	height:1000px;
+}
+
+#scene5{
+	background:url("../images/image3.jpg") no-repeat;
+	height:1000px;
+}
+
+#scene7{
+	background:url("../images/image4.jpg") no-repeat;
+	height:700px;
+}
