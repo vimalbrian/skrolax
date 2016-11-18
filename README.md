@@ -14,7 +14,7 @@ Download package and enjoy!
 ### Via class and data attribute
 
 To easily add a parallax effect behind an element, add `class="parallax"` to the element you want to use.
-To control the speed add `data-speed="0.1"` the value ranging from 0.0 to 1.0
+To control the speed add `data-speed="0.1"` the value ranging from `0.0` to `1.0`
 
 ```html
 <div id="scene1" class="parallax" data-speed="0.1"></div>
