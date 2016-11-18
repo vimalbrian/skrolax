@@ -1,3 +1,8 @@
+/*
+* Skrolax,js
+* author: Vimal Baltharaj
+*/
+
 var skrolax = {
 	init:function(){
 		$(window).on('load scroll', function(){
